@@ -1,6 +1,6 @@
 # larrydevelops.com
 
-My personal website that I update once in a while with side-projects I work on.
+A personal dev portfolio of my works
 
 ![Website hero section](https://user-images.githubusercontent.com/47901349/187296548-54ece7b5-a487-4ae0-8fcb-10c2eb56e324.png)
 
