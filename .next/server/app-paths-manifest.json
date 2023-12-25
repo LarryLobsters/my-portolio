@@ -1,5 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/icon.svg/route": "app/icon.svg/route.js",
-  "/[...fallback]/page": "app/[...fallback]/page.js"
+  "/page": "app/page.js"
 }

@@ -1,26 +1,6 @@
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/next@13.4.12_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/.pnpm/next@13.4.12_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/.pnpm/next@13.4.12_biqbaboplfbrettd7655fr4n2y/node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":[{"path":"../public/assets/Epilogue-VariableFont_wght.ttf","style":"normal"},{"path":"../public/assets/Epilogue-Italic-VariableFont_wght.ttf","style":"italic"}],"variable":"--font-epilogue","display":"swap"}],"variableName":"epilogue"} ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-font-family: '__epilogue_fef4bc';
-src: url(/_next/static/media/9a3b55bf7360f495-s.p.ttf) format('truetype');
-font-display: swap;
-font-style: normal;
-}
-
-@font-face {
-font-family: '__epilogue_fef4bc';
-src: url(/_next/static/media/157dc5e15e489ba9-s.p.ttf) format('truetype');
-font-display: swap;
-font-style: italic;
-}@font-face {font-family: '__epilogue_Fallback_fef4bc';src: local("Arial");ascent-override: 70.86%;descent-override: 21.08%;line-gap-override: 0.00%;size-adjust: 111.49%
-}.__className_fef4bc {font-family: '__epilogue_fef4bc', '__epilogue_Fallback_fef4bc'
-}.__variable_fef4bc {--font-epilogue: '__epilogue_fef4bc', '__epilogue_Fallback_fef4bc'
-}
-
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/next@13.4.12_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/.pnpm/next@13.4.12_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.12_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/.pnpm/next@13.4.12_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 *//*
@@ -408,23 +388,23 @@ video {
 [hidden] {
   display: none;
 }
-  body {
-    font-family:
-      'Epilogue',
-      -apple-system,
-      'Segoe UI',
-      Helvetica Neue,
-      Helvetica,
-      Roboto,
-      Arial,
-      sans-serif,
-      system-ui,
-      'Apple Color Emoji',
-      'Segoe UI Emoji';
-  }
+	body {
+		font-family:
+			'Epilogue',
+			-apple-system,
+			'Segoe UI',
+			Helvetica Neue,
+			Helvetica,
+			Roboto,
+			Arial,
+			sans-serif,
+			system-ui,
+			'Apple Color Emoji',
+			'Segoe UI Emoji';
+	}
 
-  a,
-  button {
+	a,
+	button {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-opacity: 1;
@@ -433,8 +413,8 @@ video {
   --tw-ring-offset-color: #171717;
 }
 
-  a:focus-visible,
-  button:focus-visible {
+	a:focus-visible,
+	button:focus-visible {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
@@ -617,30 +597,30 @@ video {
   color: rgb(218 218 218 / var(--tw-text-opacity));
 }
 .nav-link::before,
-  .mobile-nav-link::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom: -0.125rem;
-    height: 1px;
-    width: 100%;
-    transform-origin: right;
-    --tw-scale-x: 0;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    --tw-bg-opacity: 1;
-    background-color: rgb(181 181 181 / var(--tw-bg-opacity));
-    transition-property: transform;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+	.mobile-nav-link::before {
+		content: '';
+		position: absolute;
+		left: 0px;
+		bottom: -0.125rem;
+		height: 1px;
+		width: 100%;
+		transform-origin: right;
+		--tw-scale-x: 0;
+		transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+		--tw-bg-opacity: 1;
+		background-color: rgb(181 181 181 / var(--tw-bg-opacity));
+		transition-property: transform;
+		transition-duration: 300ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
 :is(.dark .nav-link)::before,:is(.dark 
-  .mobile-nav-link)::before {
+	.mobile-nav-link)::before {
   --tw-bg-opacity: 1;
   background-color: rgb(106 106 106 / var(--tw-bg-opacity));
 }
 .nav-link:hover::before,
-  .mobile-nav-link:hover::before,
-  .active-nav-link::before {
+	.mobile-nav-link:hover::before,
+	.active-nav-link::before {
   transform-origin: left;
   --tw-scale-x: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1065,9 +1045,6 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
-.italic {
-  font-style: italic;
-}
 .\!leading-tight {
   line-height: 1.25 !important;
 }
@@ -1157,143 +1134,114 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .placeholder\:text-dark-200::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(181 181 181 / var(--tw-text-opacity));
 }
-
 .placeholder\:text-dark-200::placeholder {
   --tw-text-opacity: 1;
   color: rgb(181 181 181 / var(--tw-text-opacity));
 }
-
 .hover\:text-dark-500:hover {
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity));
 }
-
 .hover\:decoration-dark-300:hover {
   text-decoration-color: #8f8f8f;
 }
-
 .hover\:opacity-60:hover {
   opacity: 0.6;
 }
-
 .group:hover .group-hover\:-translate-x-1 {
   --tw-translate-x: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group:hover .group-hover\:-translate-y-1 {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group:hover .group-hover\:translate-x-1 {
   --tw-translate-x: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group:hover .group-hover\:translate-y-1 {
   --tw-translate-y: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .group:hover .group-hover\:text-dark-300 {
   --tw-text-opacity: 1;
   color: rgb(143 143 143 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:border-dark-600) {
   --tw-border-opacity: 1;
   border-color: rgb(55 55 55 / var(--tw-border-opacity));
 }
-
 :is(.dark .dark\:border-green-400) {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
-
 :is(.dark .dark\:border-red-400) {
   --tw-border-opacity: 1;
   border-color: rgb(248 113 113 / var(--tw-border-opacity));
 }
-
 :is(.dark .dark\:bg-dark-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(41 41 41 / var(--tw-bg-opacity));
 }
-
 :is(.dark .dark\:bg-dark-850) {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
-
 :is(.dark .dark\:fill-dark-50) {
   fill: #EDEDED;
 }
-
 :is(.dark .dark\:text-dark-200) {
   --tw-text-opacity: 1;
   color: rgb(181 181 181 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:text-dark-300) {
   --tw-text-opacity: 1;
   color: rgb(143 143 143 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:text-dark-400) {
   --tw-text-opacity: 1;
   color: rgb(106 106 106 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:text-dark-50) {
   --tw-text-opacity: 1;
   color: rgb(237 237 237 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:text-red-400) {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:decoration-dark-500) {
   text-decoration-color: #454545;
 }
-
 :is(.dark .dark\:shadow-\[inset_0_-40px_15px_-10px_\#171717\]) {
   --tw-shadow: inset 0 -40px 15px -10px #171717;
   --tw-shadow-colored: inset 0 -40px 15px -10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
 :is(.dark .dark\:placeholder\:text-dark-500)::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:placeholder\:text-dark-500)::placeholder {
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:hover\:text-dark-200:hover) {
   --tw-text-opacity: 1;
   color: rgb(181 181 181 / var(--tw-text-opacity));
 }
-
 :is(.dark .dark\:hover\:decoration-dark-400:hover) {
   text-decoration-color: #6a6a6a;
 }
-
 @media (min-width: 768px) {
 
   .md\:-right-40 {
@@ -1429,7 +1377,6 @@ video {
     line-height: 1;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:-right-36 {
@@ -1494,7 +1441,6 @@ video {
     line-height: 1;
   }
 }
-
 @media (min-width: 1280px) {
 
   .xl\:-right-20 {
@@ -1526,7 +1472,6 @@ video {
     padding-bottom: 20rem;
   }
 }
-
 @media (min-width: 1440px) {
 
   .\32xl\:-right-16 {
