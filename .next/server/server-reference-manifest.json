@@ -1,13 +1,1 @@
-{
-  "node": {
-    "a829d9d1e3122d15e0b07928b16783d71acbbe9a": {
-      "workers": {
-        "app/page": "(actionBrowser)/./node_modules/.pnpm/next@13.4.12_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Flarryly%2FCode%2FCurrent_Builds%2FPortfolio%2Fportfolio-maximus%2Fapp%2Factions.ts%22%2C%5B%22sendEmail%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "actionBrowser"
-      }
-    }
-  },
-  "edge": {}
-}
+{"node":{"a1247302039dde8eda88d0c06ce5ebd607bce6ed":{"workers":{"app/side-projects/page":24943},"layer":{"app/side-projects/page":"rsc"}},"fffb95fe1703e0e80f61828f6c8c71b87ee15a09":{"workers":{"app/page":7901},"layer":{"app/page":"actionBrowser"}}},"edge":{}}

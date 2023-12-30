@@ -1,0 +1,9 @@
+{
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/icon.svg/route": "/icon.svg",
+  "/[...fallback]/page": "/[...fallback]",
+  "/side-projects/page": "/side-projects"
+}
